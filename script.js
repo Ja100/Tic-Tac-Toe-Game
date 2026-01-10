@@ -151,8 +151,8 @@ const GameController = (() => {
         const startGameBtn = document.querySelector('.start-btn');
         playerName1 = document.createElement('input');
         playerName2 = document.createElement('input');
-        playerName1.placeholder = "Enter Your Name...";
-        playerName2.placeholder = "Enter Your Name...";
+        playerName1.placeholder = "Enter Your Alias...";
+        playerName2.placeholder = "Enter Your Alias...";
 
         sideBarDiv.insertBefore(playerName1, startButton);
         sideBarDiv.insertBefore(playerName2, startButton)
